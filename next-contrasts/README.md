@@ -183,7 +183,7 @@ If your Next.js app uses a class to style the page based on the contrast, change
 <ContrastProvider attribute="class">
 ```
 
-Now, setting the contrast to "more" will set `class="more-contrast"` on the `html` element.
+Now, setting the contrast to "more" will set `class="high-contrast"` on the `html` element.
 
 ### Force page to a contrast
 

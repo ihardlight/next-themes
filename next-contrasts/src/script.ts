@@ -8,7 +8,7 @@ export const script = (
   value
 ) => {
   const el = document.documentElement
-  const contrasts: Record<Contrast, string> = {more: 'more-contrast', less: 'less-contrast', 'no-preference': 'no-preference-contrast'}
+  const contrasts: Record<Contrast, string> = {more: 'high-contrast', less: 'less-contrast', 'no-preference': 'no-preference-contrast'}
 
   function updateDOM(contrast: string) {
     const attributes = Array.isArray(attribute) ? attribute : [attribute]

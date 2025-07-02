@@ -35,7 +35,7 @@ export const ContrastProvider = (props: ContrastProviderProps) => {
   return <ContrastProviderInternal {...props} />
 }
 
-const defaultContrasts: Record<Contrast, string> = {more: 'more-contrast', less: 'less-contrast', 'no-preference': 'no-preference-contrast'}
+const defaultContrasts: Record<Contrast, string> = {more: 'high-contrast', less: 'less-contrast', 'no-preference': 'no-preference-contrast'}
 
 const ContrastProviderInternal = ({
   forcedContrast,
